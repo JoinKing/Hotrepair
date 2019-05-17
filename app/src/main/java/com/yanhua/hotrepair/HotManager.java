@@ -17,6 +17,7 @@ import dalvik.system.PathClassLoader;
  */
 
 public class HotManager {
+
     private static final String TAG = "HotManager";
     private static HashSet<File> loadedDex = new HashSet<File>();
 
@@ -24,13 +25,6 @@ public class HotManager {
         loadedDex.clear();
     }
 
-    /**
-     * MultiDex install
-     * @param context
-     */
-    public static void init(Context context) {
-        MultiDex.install(context);
-    }
     public static void loadDex(Context context) {
         if (context == null) {
             return;
