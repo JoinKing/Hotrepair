@@ -29,9 +29,9 @@ public class HotManager {
      * @param context
      */
     public static void init(Context context) {
-
         MultiDex.install(context);
-
+    }
+    public static void loadDex(Context context) {
         if (context == null) {
             return;
         }
