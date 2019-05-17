@@ -1,0 +1,2 @@
+com/yanhua/hotrepair/BaseHotRepairApplication.class
+com/yanhua/hotrepair/FixManager.class
